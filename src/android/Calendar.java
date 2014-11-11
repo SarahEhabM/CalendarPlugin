@@ -39,7 +39,7 @@ public class Calendar extends CordovaPlugin {
 		    return false;
 		} */
 		
-		Toast.makeText(this, "Calendar.java", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "Calendar.java", Toast.LENGTH_LONG).show();
 
 	}
 }

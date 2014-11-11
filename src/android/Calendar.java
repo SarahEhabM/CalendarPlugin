@@ -30,7 +30,7 @@ public class Calendar extends CordovaPlugin {
 		 
 		       this.cordova.getActivity().startActivity(calIntent); */
 		
-				Toast.makeText(this, "Calendar.java", Toast.LENGTH_LONG).show();
+				Toast.makeText(this.cordova.getActivity(), "Calendar.java", Toast.LENGTH_LONG).show();
 		       callbackContext.success();
 		       return true;
 		    }

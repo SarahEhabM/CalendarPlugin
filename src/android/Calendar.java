@@ -19,7 +19,7 @@ public class Calendar extends CordovaPlugin {
 		
 		try {
 		    if (ACTION_ADD_CALENDAR_ENTRY.equals(action)) { 
-		      /*       JSONObject arg_object = args.getJSONObject(0);
+		            JSONObject arg_object = args.getJSONObject(0);
 		             Intent calIntent = new Intent(Intent.ACTION_EDIT)
 		        .setType("vnd.android.cursor.item/event")
 		        .putExtra("beginTime", arg_object.getLong("startTimeMillis"))
@@ -28,9 +28,9 @@ public class Calendar extends CordovaPlugin {
 		        .putExtra("description", arg_object.getString("description"))
 		        .putExtra("eventLocation", arg_object.getString("eventLocation"));
 		 
-		       this.cordova.getActivity().startActivity(calIntent); */
+		       this.cordova.getActivity().startActivity(calIntent);
 		
-				Toast.makeText(this.cordova.getActivity(), "Calendar.java", Toast.LENGTH_LONG).show();
+			/*	Toast.makeText(this.cordova.getActivity(), "Calendar.java", Toast.LENGTH_LONG).show(); */
 		       callbackContext.success();
 		       return true;
 		    }

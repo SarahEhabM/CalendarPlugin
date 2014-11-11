@@ -15,5 +15,4 @@ var calendar = {
 		);
 	}
 }
-
 module.exports = calendar;

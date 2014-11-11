@@ -16,7 +16,7 @@ public class Calendar extends CordovaPlugin {
 	public boolean execute(String action, JSONArray args,
 			CallbackContext callbackContext) throws JSONException {
 		
-		try {
+	/*	try {
 		    if (ACTION_ADD_CALENDAR_ENTRY.equals(action)) { 
 		             JSONObject arg_object = args.getJSONObject(0);
 		             Intent calIntent = new Intent(Intent.ACTION_EDIT)
@@ -37,7 +37,9 @@ public class Calendar extends CordovaPlugin {
 		    System.err.println("Exception: " + e.getMessage());
 		    callbackContext.error(e.getMessage());
 		    return false;
-		} 
+		} */
+		
+		Toast.makeText(this, "Calendar.java", Toast.LENGTH_SHORT).show();
 
 	}
 }

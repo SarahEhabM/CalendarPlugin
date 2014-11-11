@@ -1,6 +1,6 @@
 var calendar = {
 	createEvent: function(title, location, notes, startDate, endDate, successCallback, errorCallback) {
-		corova.exec(
+		cordova.exec(
 				successCallback,
 				errorCallback,
 				'Calendar',
